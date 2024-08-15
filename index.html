@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simran Kaur - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="path/to/your/styles.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <div class="hero-content">
+                <h1 class="animated-text">Hello, I'm Simran Kaur</h1>
+                <h2 class="animated-subtext">A Creative Web Developer</h2>
+                <a href="#projects" class="cta-button">View My Work</a>
+            </div>
+            <img src="picture1.jpeg" class="floating-icon" id="icon1">
+        </div>
+    <section id="about" data-aos="fade-up">
+        <h2><b>About me</b></h2>
+        <p>I’m a passionate web developer with expertise in HTML, CSS, and JavaScript, specializing in building dynamic and responsive web applications. With a strong foundation in React for creating interactive user interfaces, I also bring backend skills through MongoDB and AWS to ensure robust and scalable solutions. My journey includes working with C++ for complex problem-solving and algorithm development, enhancing my technical versatility. Explore my projects to see how I blend creativity with technical proficiency to deliver seamless web experiences. Let’s connect and bring your next idea to life!</p>
+    </section>
+    
+    <section id="projects">
+        <h2><b>My Projects</b></h2>
+        <div class="projects-gallery">
+            <div class="project-item">
+                <img src="Elearning.png" alt="Project 1" class="project-thumbnail">
+                <h3>E-Learning Website</h3>
+                <p>This e-learning website is a modern, user-friendly platform designed to make online education accessible and engaging. It features a clean and intuitive interface with a course search bar enhanced by auto-suggestions, allowing users to quickly find the courses they need. The site includes user registration and login functionality, enabling personalized experiences like course enrollment and progress tracking.</p>
+            </div>
+            <div class="project-item">
+                <img src="sudokusolver.png" alt="Project 2" class="project-thumbnail">
+                <h3>Sudoku Solver</h3>
+                <p>This game Solves Sudoku using recursion and backtracking</p>
+            </div>
+        </div>
+    
+        <!-- Lightbox Modal -->
+        <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+            <div id="caption"></div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2><b>Contact me</b></h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="form-response"></div>        
+    </section>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/simran-kaur-45b970233/" target="_blank"><img src="linkden1.png" alt="LinkedIn"></a>
+            <a href="https://github.com/Simrankaur-1402" target="_blank"><img src="github.png" alt="GitHub"></a>
+            <a href="https://twitter.com/yourprofile" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+        </div>
+        <p>&copy; 2024 Simran Kaur. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
